@@ -8,4 +8,10 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+   properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+              
 
